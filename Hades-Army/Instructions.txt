@@ -1,0 +1,92 @@
+{ HOW TO DOWNLOAD AND INSTALL ALL MODULES THAT IS NEEDED TO FULLY RUN THIS NET }
+
+1. download the Hades-Army file to your desktop.
+2. install python3 (here is the download file) [https://www.python.org/downloads/]
+3. open linux, copy & paste the following command, then hit enter to install pip3 [sudo apt-get install python3-pip] NOT INCLUDING "[ ]"
+4. pip3 --version (check to see if pip3 is installed)
+> If pip is installed but it isn't pip3 or higher, copy & paste this command then hit "enter" on your keyboard. [ pip --upgrade ] NOT INCLUDING "[ ]"
+
+You must install linux to run this net. 
+if you do not know how to install linux, look it up on google for your Operating System.
+then open up the linux terminal, copy & paste the following commands, then press "enter" on your keyboard after each command.
+
+1. cd desktop
+2. cd Hades-Army
+3. pip3 install -r requirements.txt 
+
+{  HOW TO RUN THE NET AND OPEN IT  } 
+
+1. open linux
+2. cd desktop
+3. cd Hades-Army 
+4. python3 run.py
+
+{  HOW TO USE THE NET TO HIT HOMES AND WEBSITES  }
+
+# The modules with a checkmark next to them, are the ones you will be using. To choose which module to use. type it in the command line at the bottom. Example : I want to hit home connections.  l4    then press enter. l = lowercase L. 
+# Example: I want to hit website connections.  l7    then press enter. 
+1. This is what your going to see at the bottom, when you first enter the net: 
+
+Modules:
+|-- l4                         :: Load the layer4 module. (UDP/TCP)
+|-- l3                         :: Load the layer3 module. (ICMP)
+|-- l7                         :: Load the layer7 module. (HTTP)
+|-- bl                         :: Load the bluetooth module. (L2CAP)
+|-- arp                        :: Load the arp spoofing module. (ARP)
+|-- wifi                       :: Load the wifi module. (IEEE)
+|-- server                     :: Load the server module for DDos atacks.
+|-- scanner                    :: Load the scanner module.
+
+>> 
+
+# If you typed l4 this is what you should see at the top. 
+
+|-- Main commands:
+|   |-- port             :: Set the target's port.
+|   |-- threads          :: Set the number of threads.
+|   |-- ip               :: Set the target's IP.
+|   |-- web              :: Target the ip of a domain.
+|   |-- method           :: Change attack method between UPD, TCP.
+|   |-- sleep            :: Set the time delay between each packet send.
+|   |-- outtxt           :: Output each packets send status: enable/disable.
+|   |-- mute             :: Do not output the connection reply.
+|   |-- values or ls     :: Show all selected options.
+|   |-- run              :: Start the attack.
+
+# Type ip   in the command line, and press enter, then enter the targets ip address.
+# Type port   in the command line and press enter, then enter targets home connection port (80) 
+# Type method   in the command line and press enter to switch to UDP (for home connections)
+# Type threads    in the command line and press enter, then enter the amount of threads [2-5]
+# Type sleep    in the command line and press enter, then enter the time delayy for each packet sent [5-10]
+# Type run     in the command line and press enter, to startup the attack.
+# Enter Y     in the command line and press enter, to begin the attack (BE SURE YOU HAVE READ THE TOS BEFORE HITTING) 
+
+# To stop the attack, press enter on your keyboard, CTR + C or exit out of the terminal. 
+
+# If you have not read the TOS, it is below: 
+
+# [+] BEFORE USING THIS NET, READ TOS [+]
+
+# THIS IS INTENDED FOR PROPER USAGE, IF YOU DECIDE TO HIT SOMEONES HOME WIFI
+# I AM NOT RESPONSIBLE FOR YOUR ACTIONS! GOBLINCRACK IS ALSO NOT RESPONSIBLE
+# DO AS YOU PLEASE WITH SOFTWARE BUT DO NOT HIT ANY .GOV WEBSITES!
+# THAT WILL RESULT IN IMMEDIATE TERMINATION OF THIS TOOL. MEANING THIS NET 
+# WILL LOCK YOU OUT OF THE NET AND LOOSE CONNECTION TO OUR SERVER!
+		 
+#		 ~ GOBLINCRACK
+
+
+If you chose l7 to hit websites, here is how to use it. 
+
+# Type target   in the command line and press enter, (to set the targeted website) (the complete url of the website)
+# Type threads   in the command line and press enter, (to set the amount of threads for the attack) [2-5]
+# Type sleep      in the command line and press enter, (to set the delay between each thread) [2-5]
+# Type interval    in the command line and press enter, (to set a delay between each packet sent) [5-10]
+# Type run       in the command line and press enter, to start up the attack.
+# Enter Y      in the command line and press enter, to begin the attack (BE SURE YOU HAVE READ THE TOS BEFORE HITTING)
+
+# To stop the attack, press enter on your keyboard, CTR + C or exit the terminal 
+
+Those are really the only methods you need to know on how to use, the rest is it your hitting another high end net which is unethical completely. 
+
+
